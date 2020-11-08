@@ -1,0 +1,6 @@
+CREATE TABLE foo (
+ id SERIAL PRIMARY KEY,
+ message VARCHAR(255) NOT NULL
+ );
+
+INSERT INTO foo VALUES (1, 'James');
